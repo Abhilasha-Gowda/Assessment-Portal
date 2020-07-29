@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="253136" started-at="2020-07-29T15:03:41 IST" finished-at="2020-07-29T15:07:54 IST">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="253136" started-at="2020-07-29T15:03:41 IST" finished-at="2020-07-29T15:07:54 IST">
+      <class name="LA_Test_Cases.Rater_TxtComparision">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:LA_Test_Cases.Rater_TxtComparision@1786dec2]" name="setUp" is-config="true" duration-ms="1088" started-at="2020-07-29T15:03:40 IST" finished-at="2020-07-29T15:03:41 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="openapp(java.lang.String)[pri:0, instance:LA_Test_Cases.Rater_TxtComparision@1786dec2]" name="openapp" is-config="true" duration-ms="45128" started-at="2020-07-29T15:03:41 IST" finished-at="2020-07-29T15:04:26 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openapp -->
+        <test-method status="PASS" signature="rater_TxtComparision()[pri:0, instance:LA_Test_Cases.Rater_TxtComparision@1786dec2]" name="rater_TxtComparision" duration-ms="200077" started-at="2020-07-29T15:04:26 IST" finished-at="2020-07-29T15:07:46 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- rater_TxtComparision -->
+        <test-method status="PASS" signature="closeapp(org.testng.ITestResult)[pri:0, instance:LA_Test_Cases.Rater_TxtComparision@1786dec2]" name="closeapp" is-config="true" duration-ms="7744" started-at="2020-07-29T15:07:46 IST" finished-at="2020-07-29T15:07:54 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=rater_TxtComparision status=SUCCESS method=Rater_TxtComparision.rater_TxtComparision()[pri:0, instance:LA_Test_Cases.Rater_TxtComparision@1786dec2] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeapp -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:LA_Test_Cases.Rater_TxtComparision@1786dec2]" name="tearDown" is-config="true" duration-ms="2429" started-at="2020-07-29T15:07:54 IST" finished-at="2020-07-29T15:07:56 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- LA_Test_Cases.Rater_TxtComparision -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

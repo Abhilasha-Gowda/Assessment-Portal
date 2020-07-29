@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" ignored="6" total="10" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="775153" started-at="2020-06-12T15:12:24 IST" finished-at="2020-06-12T15:25:19 IST">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="775153" started-at="2020-06-12T15:12:24 IST" finished-at="2020-06-12T15:25:19 IST">
+      <class name="LA_Test_Cases.Rater_AnswerAllQuestions">
+        <test-method status="PASS" signature="openapp(java.lang.String)[pri:0, instance:LA_Test_Cases.Rater_AnswerAllQuestions@eec5a4a]" name="openapp" is-config="true" duration-ms="35067" started-at="2020-06-12T15:20:50 IST" finished-at="2020-06-12T15:21:25 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openapp -->
+        <test-method status="PASS" signature="operation()[pri:0, instance:LA_Test_Cases.Rater_AnswerAllQuestions@eec5a4a]" name="operation" duration-ms="227015" started-at="2020-06-12T15:21:25 IST" finished-at="2020-06-12T15:25:12 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- operation -->
+        <test-method status="PASS" signature="closeapp(org.testng.ITestResult)[pri:0, instance:LA_Test_Cases.Rater_AnswerAllQuestions@eec5a4a]" name="closeapp" is-config="true" duration-ms="7424" started-at="2020-06-12T15:25:12 IST" finished-at="2020-06-12T15:25:19 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=operation status=SUCCESS method=Rater_AnswerAllQuestions.operation()[pri:0, instance:LA_Test_Cases.Rater_AnswerAllQuestions@eec5a4a] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeapp -->
+      </class> <!-- LA_Test_Cases.Rater_AnswerAllQuestions -->
+      <class name="LA_Test_Cases.Self_TxtComparision">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:LA_Test_Cases.Self_TxtComparision@67784306]" name="setUp" is-config="true" duration-ms="623" started-at="2020-06-12T15:12:24 IST" finished-at="2020-06-12T15:12:24 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="openapp(java.lang.String)[pri:0, instance:LA_Test_Cases.Self_TxtComparision@67784306]" name="openapp" is-config="true" duration-ms="33313" started-at="2020-06-12T15:12:24 IST" finished-at="2020-06-12T15:12:58 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openapp -->
+        <test-method status="PASS" signature="self_txt_comaprision()[pri:0, instance:LA_Test_Cases.Self_TxtComparision@67784306]" name="self_txt_comaprision" duration-ms="130901" started-at="2020-06-12T15:12:58 IST" finished-at="2020-06-12T15:15:09 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- self_txt_comaprision -->
+        <test-method status="PASS" signature="closeapp(org.testng.ITestResult)[pri:0, instance:LA_Test_Cases.Self_TxtComparision@67784306]" name="closeapp" is-config="true" duration-ms="8757" started-at="2020-06-12T15:15:09 IST" finished-at="2020-06-12T15:15:17 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=self_txt_comaprision status=SUCCESS method=Self_TxtComparision.self_txt_comaprision()[pri:0, instance:LA_Test_Cases.Self_TxtComparision@67784306] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeapp -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:LA_Test_Cases.Self_TxtComparision@67784306]" name="tearDown" is-config="true" duration-ms="1810" started-at="2020-06-12T15:25:20 IST" finished-at="2020-06-12T15:25:21 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- LA_Test_Cases.Self_TxtComparision -->
+      <class name="LA_Test_Cases.Self_AnswerAllQuestions">
+        <test-method status="PASS" signature="openapp(java.lang.String)[pri:0, instance:LA_Test_Cases.Self_AnswerAllQuestions@335eadca]" name="openapp" is-config="true" duration-ms="32317" started-at="2020-06-12T15:15:17 IST" finished-at="2020-06-12T15:15:50 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openapp -->
+        <test-method status="PASS" signature="operation()[pri:0, instance:LA_Test_Cases.Self_AnswerAllQuestions@335eadca]" name="operation" duration-ms="153989" started-at="2020-06-12T15:15:50 IST" finished-at="2020-06-12T15:18:24 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- operation -->
+        <test-method status="PASS" signature="closeapp(org.testng.ITestResult)[pri:0, instance:LA_Test_Cases.Self_AnswerAllQuestions@335eadca]" name="closeapp" is-config="true" duration-ms="8024" started-at="2020-06-12T15:18:24 IST" finished-at="2020-06-12T15:18:32 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=operation status=SUCCESS method=Self_AnswerAllQuestions.operation()[pri:0, instance:LA_Test_Cases.Self_AnswerAllQuestions@335eadca] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeapp -->
+      </class> <!-- LA_Test_Cases.Self_AnswerAllQuestions -->
+      <class name="LA_Test_Cases.Rater_TxtComparision">
+        <test-method status="PASS" signature="openapp(java.lang.String)[pri:0, instance:LA_Test_Cases.Rater_TxtComparision@210366b4]" name="openapp" is-config="true" duration-ms="20591" started-at="2020-06-12T15:18:32 IST" finished-at="2020-06-12T15:18:52 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openapp -->
+        <test-method status="FAIL" signature="rater_TxtComparision()[pri:0, instance:LA_Test_Cases.Rater_TxtComparision@210366b4]" name="rater_TxtComparision" duration-ms="105934" started-at="2020-06-12T15:18:52 IST" finished-at="2020-06-12T15:20:38 IST">
+          <exception class="org.openqa.selenium.ElementClickInterceptedException">
+            <message>
+              <![CDATA[element click intercepted: Element <button aria-haspopup="true" mat-icon-button="" class="mat-icon-button">...</button> is not clickable at point (363, 89). Other element would receive the click: <div _ngcontent-c1="" class="backdrop ng-star-inserted" style="border-radius: 0px; background-color: rgba(0, 0, 0, 0.3);"></div>
+  (Session info: chrome=83.0.4103.97)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'USER', ip: '172.20.10.4', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_131'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 83.0.4103.97, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: C:\Users\dell\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:5211}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 867720687e88c24f73c1f8e2c7bcfd76]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <button aria-haspopup="true" mat-icon-button="" class="mat-icon-button">...</button> is not clickable at point (363, 89). Other element would receive the click: <div _ngcontent-c1="" class="backdrop ng-star-inserted" style="border-radius: 0px; background-color: rgba(0, 0, 0, 0.3);"></div>
+  (Session info: chrome=83.0.4103.97)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'USER', ip: '172.20.10.4', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_131'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 83.0.4103.97, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: C:\Users\dell\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:5211}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 867720687e88c24f73c1f8e2c7bcfd76
+at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+at java.lang.reflect.Constructor.newInstance(Unknown Source)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+at sun.reflect.GeneratedMethodAccessor5.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+at com.sun.proxy.$Proxy11.click(Unknown Source)
+at Pom.Rater_AssessmentPage1.clickOnOpt(Rater_AssessmentPage1.java:73)
+at LA_Test_Cases.Rater_TxtComparision.rater_TxtComparision(Rater_TxtComparision.java:44)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:597)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(Unknown Source)
+at org.testng.TestRunner.privateRun(TestRunner.java:766)
+at org.testng.TestRunner.run(TestRunner.java:587)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1109)
+at org.testng.TestNG.runSuites(TestNG.java:1039)
+at org.testng.TestNG.run(TestNG.java:1007)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:377)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:138)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:465)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:451)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.ElementClickInterceptedException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- rater_TxtComparision -->
+        <test-method status="PASS" signature="closeapp(org.testng.ITestResult)[pri:0, instance:LA_Test_Cases.Rater_TxtComparision@210366b4]" name="closeapp" is-config="true" duration-ms="11410" started-at="2020-06-12T15:20:38 IST" finished-at="2020-06-12T15:20:50 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=rater_TxtComparision status=FAILURE method=Rater_TxtComparision.rater_TxtComparision()[pri:0, instance:LA_Test_Cases.Rater_TxtComparision@210366b4] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeapp -->
+      </class> <!-- LA_Test_Cases.Rater_TxtComparision -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

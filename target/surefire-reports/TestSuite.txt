@@ -1,0 +1,15 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 4, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 782.075 s <<< FAILURE! - in TestSuite
+LA_Test_Cases.Rater_TxtComparision.rater_TxtComparision  Time elapsed: 106.202 s  <<< FAILURE!
+org.openqa.selenium.ElementClickInterceptedException: 
+element click intercepted: Element <button aria-haspopup="true" mat-icon-button="" class="mat-icon-button">...</button> is not clickable at point (363, 89). Other element would receive the click: <div _ngcontent-c1="" class="backdrop ng-star-inserted" style="border-radius: 0px; background-color: rgba(0, 0, 0, 0.3);"></div>
+  (Session info: chrome=83.0.4103.97)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'USER', ip: '172.20.10.4', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_131'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 83.0.4103.97, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: C:\Users\dell\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:5211}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 867720687e88c24f73c1f8e2c7bcfd76
+	at LA_Test_Cases.Rater_TxtComparision.rater_TxtComparision(Rater_TxtComparision.java:44)
+
